@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChineseTrainer</string>
+    <string name="exercise_training">Training</string>
+    <string name="app_title_chinese">我学习汉语</string>
 </resources>
