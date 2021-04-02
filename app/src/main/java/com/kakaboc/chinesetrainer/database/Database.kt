@@ -14,5 +14,5 @@ abstract class MainDatabase : RoomDatabase() {
 @Dao
 interface HanziDao {
     @Query("SELECT * FROM hanzi")
-    fun getAll(): Flow<Hanzi>
+    fun getAll(): Flow<List<Hanzi>>
 }
